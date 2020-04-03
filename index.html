@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HARBINGER</title>
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        rel="stylesheet"
+    >
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <!-- Navbar section -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#">HARBINGER</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#mobile-menu"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="flex-column align-items-start flex-md-row collapse navbar-collapse btn-toolbar justify-content-between" id="mobile-menu">
+        <ul class="navbar-nav">
+          <li class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Clothing</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Outfits</a>
+              <a class="dropdown-item" href="#">Tops</a>
+              <a class="dropdown-item" href="#">Bottoms</a>
+            </div>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Lingerie</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Shoes</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Accessories</a>
+          </li>
+        </ul>
+
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary"><i class="fas fa-shopping-cart"></i> Cart</button>
+          <button type="button" class="btn btn-secondary"><i class="fas fa-user"></i> Account</button>
+        </div>
+      </div>
+    </nav>
+  <!-- Carousel section -->
+    <div id="main-slider" class="carousel slide py-5" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="w-100" src="https://i.postimg.cc/Nj9zxfCM/1.jpg" alt="First slide">
+          <div class="carousel-caption position-absolute">
+            <h4>Treść 1</h4>
+            <h3>Podtreść 1</h3>
+            <a class="btn btn-primary" href="#">Przycisk 1</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="https://i.postimg.cc/zB525wzb/2.jpg" alt="Second slide">
+          <div class="carousel-caption position-absolute">
+            <h4>Treść 2</h4>
+            <h3>Podtreść 2</h3>
+            <a class="btn btn-primary" href="#">Przycisk 2</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="https://i.postimg.cc/d3VWZqTJ/3.jpg" alt="Third slide">
+          <div class="carousel-caption position-absolute">
+            <h4>Treść 3</h4>
+            <h3>Podtreść 3</h3>
+            <a class="btn btn-primary" href="#">Przycisk 3</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#main-slider" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#main-slider" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  <!-- Sections -->
+    <section class="products py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2>Brands</h2>
+            <div class="list-group flex-sm-row flex-lg-column my-5">
+              <a class="list-group-item list-group-item-action" href="#">Vivamus</a>
+              <a class="list-group-item list-group-item-action" href="#">Etiam</a>
+              <a class="list-group-item list-group-item-action" href="#">Praesent</a>
+              <a class="list-group-item list-group-item-action" href="#">Aenean</a>
+              <a class="list-group-item list-group-item-action" href="#">Vestibulum</a>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <h2>New arrivals</h2>
+            <div class="row mt-5">
+              <div class="col-sm-6 col-lg-4">
+                <div class="card mb-3">
+                  <div class="card-image">
+                    <img src="https://i.postimg.cc/NfS5npD4/4.jpg" alt="photo">
+                  </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum</p>
+                    <a href="#" class="btn btn-light">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div class="card mb-3">
+                  <div class="card-image">
+                    <img src="https://i.postimg.cc/cJN6xCVt/6.jpg" alt="photo">
+                  </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum</p>
+                    <a href="#" class="btn btn-light">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div class="card mb-3">
+                  <div class="card-image">
+                    <img src="https://i.postimg.cc/xdy8cY2x/7.jpg" alt="photo">
+                  </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum</p>
+                    <a href="#" class="btn btn-light">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 d-lg-none">
+                <div class="card mb-3">
+                  <div class="card-image">
+                    <img src="https://i.postimg.cc/DwG83LYK/5.jpg" alt="photo">
+                  </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum</p>
+                    <a href="#" class="btn btn-light">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3 justify-content-center align-items-center">
+              <img src="https://i.postimg.cc/85ZCmHsL/8.jpg" alt="photo">
+              <div class="card-body position-absolute text-center">
+                <h5>Winter sale</h5>
+                <a href="" class="btn btn-primary">See details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3 justify-content-center align-items-center">
+              <img src="https://i.postimg.cc/ZngK158R/9.jpg" alt="photo">
+              <div class="card-body position-absolute text-center">
+                <h5>Lookbook</h5>
+                <a href="" class="btn btn-primary">Get inspired</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card mb-3 justify-content-center align-items-center">
+              <img src="https://i.postimg.cc/BQLv2231/10.jpg" alt="photo">
+              <div class="card-body position-absolute text-center">
+                <h5>News and ideas</h5>
+                <a href="" class="btn btn-primary">Go to Harbinger blog</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card p-3 mb-3">
+              <div class="row">
+                <div class="col-md-2 d-none d-md-block">
+                  <i class="fas fa-truck pt-4 pl-3"></i>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h3>Free shipping</h3>
+                    <p>Lorem ipsum</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3 mb-3">
+              <div class="row">
+                <div class="col-md-2 d-none d-md-block">
+                  <i class="fas fa-money-bill-wave pt-4 pl-3"></i>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h3>60-day refund</h3>
+                    <p>Lorem ipsum</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3 mb-3">
+              <div class="row">
+                <div class="col-md-2 d-none d-md-block">
+                  <i class="fas fa-life-ring pt-4 pl-3"></i>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h3>24/7 support</h3>
+                    <p>Lorem ipsum</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 colored">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="box px-5 mb-3">
+              <h3>HARBINGER</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+              <ul class="icons pl-0">
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                    Facebook
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                    Twitter
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-youtube"></i>
+                    YouTube
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="box px-5 mb-3">
+              <h3>Contact us</h3>
+              <p>01-123 Bździszewo <br>
+                Ul. Błotna 12/3 <br>
+                <a href="#">name@domain.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 order-md-first">
+            <div class="box px-5 mb-3">
+              <h3>Newsletter</h3>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Lorem ipsum dolor sit amet.</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              <!-- <a href="#" class="btn btn-primary" role="button">
+                Submit
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-3 footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-4">
+            <div><p>&copy; Harbinger Ltd.</p></div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end text-right">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Delivery</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Returns</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Privacy policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms and conditions</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>
